@@ -1,0 +1,1 @@
+#在app包文件下npm install

@@ -1,0 +1,245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\nodejs\\node.exe',
+1 verbose cli   'E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from E:\app\package.json
+5 verbose install where, deps [ 'E:\\app',
+5 verbose install   [ 'angular-masonry',
+5 verbose install     'bower',
+5 verbose install     'grunt',
+5 verbose install     'grunt-cli',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-qunit',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-bower-task',
+5 verbose install     'grunt-contrib-connect',
+5 verbose install     'grunt-html2js',
+5 verbose install     'grunt-replace' ] ]
+6 verbose install where, peers [ 'E:\\app', [] ]
+7 verbose installManyTop reading for lifecycle E:\app\package.json
+8 info preinstall app@0.0.0
+9 verbose installManyTop reading scoped package data from E:\app\node_modules\angular-masonry\package.json
+10 verbose installManyTop reading scoped package data from E:\app\node_modules\bower\package.json
+11 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt\package.json
+12 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-bower-task\package.json
+13 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-cli\package.json
+14 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-contrib-concat\package.json
+15 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-contrib-connect\package.json
+16 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-contrib-copy\package.json
+17 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-contrib-cssmin\package.json
+18 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-contrib-jshint\package.json
+19 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-contrib-qunit\package.json
+20 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-contrib-uglify\package.json
+21 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-contrib-watch\package.json
+22 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-html2js\package.json
+23 verbose installManyTop reading scoped package data from E:\app\node_modules\grunt-replace\package.json
+24 verbose installManyTop reading scoped package data from E:\app\node_modules\node_modules.rar\package.json
+25 info package.json grunt-bower-task@0.4.0 No license field.
+26 info package.json grunt-contrib-qunit@0.3.0 No license field.
+27 info package.json grunt-html2js@0.3.6 No license field.
+28 verbose readDependencies loading dependencies from E:\app\package.json
+29 verbose targetResolver reading package data from E:\app\node_modules\angular-masonry\package.json
+30 verbose targetResolver reading package data from E:\app\node_modules\bower\package.json
+31 verbose targetResolver reading package data from E:\app\node_modules\grunt\package.json
+32 verbose targetResolver reading package data from E:\app\node_modules\grunt-bower-task\package.json
+33 verbose targetResolver reading package data from E:\app\node_modules\grunt-cli\package.json
+34 verbose targetResolver reading package data from E:\app\node_modules\grunt-contrib-concat\package.json
+35 verbose targetResolver reading package data from E:\app\node_modules\grunt-contrib-connect\package.json
+36 verbose targetResolver reading package data from E:\app\node_modules\grunt-contrib-copy\package.json
+37 verbose targetResolver reading package data from E:\app\node_modules\grunt-contrib-cssmin\package.json
+38 verbose targetResolver reading package data from E:\app\node_modules\grunt-contrib-jshint\package.json
+39 verbose targetResolver reading package data from E:\app\node_modules\grunt-contrib-qunit\package.json
+40 verbose targetResolver reading package data from E:\app\node_modules\grunt-contrib-uglify\package.json
+41 verbose targetResolver reading package data from E:\app\node_modules\grunt-contrib-watch\package.json
+42 verbose targetResolver reading package data from E:\app\node_modules\grunt-html2js\package.json
+43 verbose targetResolver reading package data from E:\app\node_modules\grunt-replace\package.json
+44 verbose targetResolver reading package data from E:\app\node_modules\node_modules.rar\package.json
+45 verbose targetResolver reading package data from E:\app\node_modules\.bin\bower\package.json
+46 verbose targetResolver reading package data from E:\app\node_modules\.bin\bower.cmd\package.json
+47 verbose targetResolver reading package data from E:\app\node_modules\.bin\grunt\package.json
+48 verbose targetResolver reading package data from E:\app\node_modules\.bin\grunt.cmd\package.json
+49 verbose already installed skipping grunt-cli@~1.2.0 E:\app
+50 verbose already installed skipping grunt-contrib-concat@~1.0.1 E:\app
+51 verbose already installed skipping grunt-contrib-copy@~1.0.0 E:\app
+52 verbose already installed skipping grunt-contrib-cssmin@~1.0.2 E:\app
+53 verbose already installed skipping grunt-contrib-jshint@~1.1.0 E:\app
+54 verbose already installed skipping grunt-contrib-qunit@~0.3.0 E:\app
+55 verbose already installed skipping grunt-contrib-uglify@~2.0.0 E:\app
+56 verbose already installed skipping grunt-contrib-watch@~1.0.0 E:\app
+57 verbose already installed skipping grunt-bower-task@~0.4.0 E:\app
+58 silly cache add args [ 'grunt-contrib-connect@latest', null ]
+59 verbose cache add spec grunt-contrib-connect@latest
+60 silly cache add args [ 'grunt-html2js@latest', null ]
+61 verbose cache add spec grunt-html2js@latest
+62 silly cache add args [ 'grunt-replace@latest', null ]
+63 verbose cache add spec grunt-replace@latest
+64 silly cache add parsed spec { raw: 'grunt-contrib-connect@latest',
+64 silly cache add   scope: null,
+64 silly cache add   name: 'grunt-contrib-connect',
+64 silly cache add   rawSpec: 'latest',
+64 silly cache add   spec: 'latest',
+64 silly cache add   type: 'tag' }
+65 silly addNamed grunt-contrib-connect@latest
+66 verbose addNamed "latest" is being treated as a dist-tag for grunt-contrib-connect
+67 info addNameTag [ 'grunt-contrib-connect', 'latest' ]
+68 silly mapToRegistry name grunt-contrib-connect
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npm.taobao.org/
+71 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-connect
+72 verbose addNameTag registry:https://registry.npm.taobao.org/grunt-contrib-connect not in flight; fetching
+73 silly cache add parsed spec { raw: 'grunt-html2js@latest',
+73 silly cache add   scope: null,
+73 silly cache add   name: 'grunt-html2js',
+73 silly cache add   rawSpec: 'latest',
+73 silly cache add   spec: 'latest',
+73 silly cache add   type: 'tag' }
+74 silly addNamed grunt-html2js@latest
+75 verbose addNamed "latest" is being treated as a dist-tag for grunt-html2js
+76 info addNameTag [ 'grunt-html2js', 'latest' ]
+77 silly mapToRegistry name grunt-html2js
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npm.taobao.org/
+80 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-html2js
+81 verbose addNameTag registry:https://registry.npm.taobao.org/grunt-html2js not in flight; fetching
+82 silly cache add parsed spec { raw: 'grunt-replace@latest',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'grunt-replace',
+82 silly cache add   rawSpec: 'latest',
+82 silly cache add   spec: 'latest',
+82 silly cache add   type: 'tag' }
+83 silly addNamed grunt-replace@latest
+84 verbose addNamed "latest" is being treated as a dist-tag for grunt-replace
+85 info addNameTag [ 'grunt-replace', 'latest' ]
+86 silly mapToRegistry name grunt-replace
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npm.taobao.org/
+89 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-replace
+90 verbose addNameTag registry:https://registry.npm.taobao.org/grunt-replace not in flight; fetching
+91 verbose already installed skipping angular-masonry@^0.16.0 E:\app
+92 verbose already installed skipping bower@^1.3.1 E:\app
+93 verbose already installed skipping grunt@~1.0.1 E:\app
+94 verbose request uri https://registry.npm.taobao.org/grunt-contrib-connect
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 13:58:53
+97 verbose request id a78e39dad32f6f4c
+98 verbose etag "fe4e-mRMPF92PILoJQdh/jJpIAA"
+99 http request GET https://registry.npm.taobao.org/grunt-contrib-connect
+100 verbose request uri https://registry.npm.taobao.org/grunt-html2js
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 13:58:53
+103 verbose etag "c74d-OEcm32zYjcZZrdWikKFmNA"
+104 http request GET https://registry.npm.taobao.org/grunt-html2js
+105 verbose request uri https://registry.npm.taobao.org/grunt-replace
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 13:58:53
+108 verbose etag "121d2-Ye+23tS2LQylUtVs5H7tCA"
+109 http request GET https://registry.npm.taobao.org/grunt-replace
+110 http 304 https://registry.npm.taobao.org/grunt-html2js
+111 silly get cb [ 304,
+111 silly get   { date: 'Sun, 22 Jan 2017 05:55:49 GMT',
+111 silly get     connection: 'keep-alive',
+111 silly get     'x-current-requests': '1',
+111 silly get     etag: '"c74d-OEcm32zYjcZZrdWikKFmNA"',
+111 silly get     'x-readtime': '41' } ]
+112 verbose etag https://registry.npm.taobao.org/grunt-html2js from cache
+113 verbose get saving grunt-html2js to E:\nodejs\node_cache\registry.npm.taobao.org\grunt-html2js\.cache.json
+114 http 304 https://registry.npm.taobao.org/grunt-contrib-connect
+115 silly get cb [ 304,
+115 silly get   { date: 'Sun, 22 Jan 2017 05:55:49 GMT',
+115 silly get     connection: 'keep-alive',
+115 silly get     'x-current-requests': '1',
+115 silly get     etag: '"fe4e-mRMPF92PILoJQdh/jJpIAA"',
+115 silly get     'x-readtime': '45' } ]
+116 verbose etag https://registry.npm.taobao.org/grunt-contrib-connect from cache
+117 verbose get saving grunt-contrib-connect to E:\nodejs\node_cache\registry.npm.taobao.org\grunt-contrib-connect\.cache.json
+118 http 304 https://registry.npm.taobao.org/grunt-replace
+119 silly get cb [ 304,
+119 silly get   { date: 'Sun, 22 Jan 2017 05:55:49 GMT',
+119 silly get     connection: 'keep-alive',
+119 silly get     'x-current-requests': '1',
+119 silly get     etag: '"121d2-Ye+23tS2LQylUtVs5H7tCA"',
+119 silly get     'x-readtime': '56' } ]
+120 verbose etag https://registry.npm.taobao.org/grunt-replace from cache
+121 verbose get saving grunt-replace to E:\nodejs\node_cache\registry.npm.taobao.org\grunt-replace\.cache.json
+122 silly addNameTag next cb for grunt-html2js with tag latest
+123 silly addNamed grunt-html2js@0.3.6
+124 verbose addNamed "0.3.6" is a plain semver version for grunt-html2js
+125 silly addNameTag next cb for grunt-replace with tag latest
+126 silly addNamed grunt-replace@1.0.1
+127 verbose addNamed "1.0.1" is a plain semver version for grunt-replace
+128 silly addNameTag next cb for grunt-contrib-connect with tag latest
+129 silly addNamed grunt-contrib-connect@1.0.2
+130 verbose addNamed "1.0.2" is a plain semver version for grunt-contrib-connect
+131 silly cache afterAdd grunt-html2js@0.3.6
+132 verbose afterAdd E:\nodejs\node_cache\grunt-html2js\0.3.6\package\package.json not in flight; writing
+133 silly cache afterAdd grunt-replace@1.0.1
+134 verbose afterAdd E:\nodejs\node_cache\grunt-replace\1.0.1\package\package.json not in flight; writing
+135 silly cache afterAdd grunt-contrib-connect@1.0.2
+136 verbose afterAdd E:\nodejs\node_cache\grunt-contrib-connect\1.0.2\package\package.json not in flight; writing
+137 verbose afterAdd E:\nodejs\node_cache\grunt-html2js\0.3.6\package\package.json written
+138 info already installed grunt-html2js@0.3.6
+139 verbose afterAdd E:\nodejs\node_cache\grunt-replace\1.0.1\package\package.json written
+140 info already installed grunt-replace@1.0.1
+141 verbose afterAdd E:\nodejs\node_cache\grunt-contrib-connect\1.0.2\package\package.json written
+142 info already installed grunt-contrib-connect@1.0.2
+143 silly install resolved []
+144 info build E:\app
+145 info linkStuff app@0.0.0
+146 silly linkStuff app@0.0.0 has E:\ as its parent node_modules
+147 verbose linkBins app@0.0.0
+148 verbose linkMans app@0.0.0
+149 verbose rebuildBundles app@0.0.0
+150 verbose rebuildBundles [ '.bin',
+150 verbose rebuildBundles   'angular-masonry',
+150 verbose rebuildBundles   'bower',
+150 verbose rebuildBundles   'grunt',
+150 verbose rebuildBundles   'grunt-bower-task',
+150 verbose rebuildBundles   'grunt-cli',
+150 verbose rebuildBundles   'grunt-contrib-concat',
+150 verbose rebuildBundles   'grunt-contrib-connect',
+150 verbose rebuildBundles   'grunt-contrib-copy',
+150 verbose rebuildBundles   'grunt-contrib-cssmin',
+150 verbose rebuildBundles   'grunt-contrib-jshint',
+150 verbose rebuildBundles   'grunt-contrib-qunit',
+150 verbose rebuildBundles   'grunt-contrib-uglify',
+150 verbose rebuildBundles   'grunt-contrib-watch',
+150 verbose rebuildBundles   'grunt-html2js',
+150 verbose rebuildBundles   'grunt-replace',
+150 verbose rebuildBundles   'node_modules.rar' ]
+151 verbose rebuild bundle E:\app\node_modules\node_modules.rar
+152 info install app@0.0.0
+153 info postinstall app@0.0.0
+154 verbose unsafe-perm in lifecycle true
+155 info app@0.0.0 Failed to exec postinstall script
+156 verbose stack Error: app@0.0.0 postinstall: `bower install`
+156 verbose stack Exit status 1
+156 verbose stack     at EventEmitter.<anonymous> (E:\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+156 verbose stack     at EventEmitter.emit (events.js:110:17)
+156 verbose stack     at ChildProcess.<anonymous> (E:\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+156 verbose stack     at ChildProcess.emit (events.js:110:17)
+156 verbose stack     at maybeClose (child_process.js:1015:16)
+156 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+157 verbose pkgid app@0.0.0
+158 verbose cwd E:\app\app
+159 error Windows_NT 6.3.9600
+160 error argv "E:\\nodejs\\node.exe" "E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+161 error node v0.12.7
+162 error npm  v2.11.3
+163 error code ELIFECYCLE
+164 error app@0.0.0 postinstall: `bower install`
+164 error Exit status 1
+165 error Failed at the app@0.0.0 postinstall script 'bower install'.
+165 error This is most likely a problem with the app package,
+165 error not with npm itself.
+165 error Tell the author that this fails on your system:
+165 error     bower install
+165 error You can get their info via:
+165 error     npm owner ls app
+165 error There is likely additional logging output above.
+166 verbose exit [ 1, true ]
